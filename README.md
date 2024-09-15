@@ -1,5 +1,7 @@
 # noplayerdrag
 
+#This is a Fork and I am not the original Author
+
 ## Description
 A little module to disable player dragging of tokens forcing them to use the WASD/arrow keys to move a token.
 
