@@ -3,8 +3,8 @@
     "name": "noplayerdrag",
     "title": "Disable non GM token drag",
     "description": "Force players to use WASD/Arrow keys to move tokens",
-    "version": "0.3.1",  // Updated version number
-    "authors": [{"name": "tposney"}],
+    "version": "1",  // Updated version number
+    "authors": [{"name": "tposney / forked by wolf"}],
     "scripts": [
         "noplayerdrag.js"
     ],
