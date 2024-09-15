@@ -16,16 +16,16 @@
     ],
     "styles": [],
     "packs": [],
-    "url": "https://github.com/tposney/noplayerdrag",
-    "readme": "https://gitlab.com/tposney/itemcollection/raw/master/README.md",
-    "changelog": "https://gitlab.com/tposney/itemcollection/raw/master/Changelog.md",
-    "manifest": "https://github.com/tposney/noplayerdrag/raw/main/module.json",
+    "url": "https://github.com/WolfLycanorcant",
+    "readme": "",
+    "changelog": "",
+    "manifest": "https://raw.githubusercontent.com/WolfLycanorcant/noplayerdrag/main/module.json",
     "download": "https://github.com/tposney/noplayerdrag/archive/v0.3.1.zip",  // Updated download URL
-    "manifestPlusVersion": "1.2.0",
+    "manifestPlusVersion": "",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "12",  // Updated for compatibility with Foundry VTT v12
     "compatibility": {
-        "minimum": 9,
+        "minimum": 12,
         "verified": 12,
         "maximum": 12
     },
