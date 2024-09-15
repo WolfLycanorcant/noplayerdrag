@@ -1,34 +1,46 @@
 {
-    "id": "noplayerdrag",
+    "id": "noplayerdragfork",
     "name": "noplayerdrag",
     "title": "Disable non GM token drag",
     "description": "Force players to use WASD/Arrow keys to move tokens",
-    "version": "1",  // Updated version number
-    "authors": [{"name": "tposney / forked by wolf"}],
-    "scripts": [
-        "noplayerdrag.js"
+    "version": "1.0.0",  
+    "authors": [
+        {
+            "name": "original tposney forked by wolflycan",
+            "email": "",  
+            "url": "https://github.com/WolfLycanorcant/noplayerdrag"
+        }
     ],
+    "license": "MIT",
+    "scripts": [
+        "https://raw.githubusercontent.com/WolfLycanorcant/noplayerdrag/main/noplayerdrag.js"
+    ],
+    "esmodules": [],  
+    "styles": [],
+    "packs": [],
+    "languages": [],
+    "url": "https://github.com/WolfLycanorcant/noplayerdrag",
+    "readme": "https://github.com/WolfLycanorcant/noplayerdrag/blob/main/README.md",
+    "changelog": "https://github.com/WolfLycanorcant/noplayerdrag/blob/main/Changelog.md",
+    "manifest": "https://raw.githubusercontent.com/WolfLycanorcant/noplayerdrag/main/module.json",
+    "download": "https://github.com/WolfLycanorcant/noplayerdrag/archive/main.zip",  
+    "manifestPlusVersion": "1.2.0",  
+    "minimumCoreVersion": "12",  // Updated minimum core version to 12
+    "compatibleCoreVersion": "12",  
+    "compatibility": {
+        "minimum": 12,  // Updated minimum compatibility to 12
+        "verified": 12,  
+        "maximum": 12  
+    },
     "dependencies": [
         {
             "name": "lib-wrapper", 
             "type": "module"
         }
     ],
-    "styles": [],
-    "packs": [],
-    "url": "https://github.com/WolfLycanorcant",
-    "readme": "",
-    "changelog": "",
-    "manifest": "https://raw.githubusercontent.com/WolfLycanorcant/noplayerdrag/main/module.json",
-    "download": "https://github.com/tposney/noplayerdrag/archive/v0.3.1.zip",  // Updated download URL
-    "manifestPlusVersion": "",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "12",  // Updated for compatibility with Foundry VTT v12
-    "compatibility": {
-        "minimum": 12,
-        "verified": 12,
-        "maximum": 12
-    },
+    "bugReport": "https://github.com/WolfLycanorcant/noplayerdrag/issues",
+    "feature": "https://github.com/WolfLycanorcant/noplayerdrag/issues",
+    "donation": "https://ko-fi.com/your-profile",  
     "flags": {
         "manifestPlusVersion": "1.2.0",
         "allowBugReporter": true
