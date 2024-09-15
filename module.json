@@ -1,17 +1,18 @@
 {
+    "id": "noplayerdrag",
     "name": "noplayerdrag",
     "title": "Disable non GM token drag",
     "description": "Force players to use WASD/Arrow keys to move tokens",
-    "version": "0.3.1",  // Incremented version for the updated compatibility
+    "version": "0.3.1",  // Updated version number
     "authors": [{"name": "tposney"}],
     "scripts": [
         "noplayerdrag.js"
     ],
     "dependencies": [
-      {
-        "name": "lib-wrapper", 
-        "type": "module"
-      }
+        {
+            "name": "lib-wrapper", 
+            "type": "module"
+        }
     ],
     "styles": [],
     "packs": [],
@@ -19,17 +20,17 @@
     "readme": "https://gitlab.com/tposney/itemcollection/raw/master/README.md",
     "changelog": "https://gitlab.com/tposney/itemcollection/raw/master/Changelog.md",
     "manifest": "https://github.com/tposney/noplayerdrag/raw/main/module.json",
-    "download": "https://github.com/tposney/noplayerdrag/archive/v0.3.1.zip",  // Updated download URL for version 0.3.1
+    "download": "https://github.com/tposney/noplayerdrag/archive/v0.3.1.zip",  // Updated download URL
     "manifestPlusVersion": "1.2.0",
     "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "12",  // Updated to v12
+    "compatibleCoreVersion": "12",  // Updated for compatibility with Foundry VTT v12
     "compatibility": {
-      "minimum": 9,
-      "verified": 12,  // Updated verified version
-      "maximum": 12    // Set maximum to v12 for compatibility
+        "minimum": 9,
+        "verified": 12,
+        "maximum": 12
     },
     "flags": {
-      "manifestPlusVersion": "1.2.0",
-      "allowBugReporter": true
+        "manifestPlusVersion": "1.2.0",
+        "allowBugReporter": true
     }
 }
