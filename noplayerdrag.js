@@ -8,29 +8,29 @@ function myCanDrag(wrapped, ...args) {
 		)
 			return false;
 	} catch (err) {
-    console.err(err);
+		console.error(err);  // Changed console.err to console.error
 	}
-  return canDrag;
+	return canDrag;
 }
 
 Hooks.once("ready", function () {
 	if (game.modules.get("lib-wrapper")?.active) {
-		libWrapper.register("noplayerdrag", "Token.prototype._canDrag", myCanDrag, "WRAPPER");
+		libWrapper.register("noplayerdrag", "Token.prototype.canUserModify", myCanDrag, "WRAPPER");  // Updated from _canDrag to canUserModify
 	}
 });
 
 Hooks.once("init", () => {
 	game.settings.register("noplayerdrag", "disablePlayerDrag", {
 		name: `Disable token drag outside combat`,
-		hint: `Non GM players cannot drag tokens and must use WASD/Arrow keys outside of combat`,
+		hint: `Non-GM players cannot drag tokens and must use WASD/Arrow keys outside of combat.`,
 		scope: "world",
 		config: true,
 		type: Boolean,
 		default: false,
 	});
 	game.settings.register("noplayerdrag", "disablePlayerDragCombat", {
-		name: `Disable drag token in combat`,
-		hint: `Non GM players cannot drag tokens which are in combat and must use WASD/Arrow keys`,
+		name: `Disable token drag in combat`,
+		hint: `Non-GM players cannot drag tokens that are in combat and must use WASD/Arrow keys.`,
 		scope: "world",
 		config: true,
 		type: Boolean,
